@@ -1,0 +1,4 @@
+title,h1{animation:cubic-bezier(0.075, 0.82, 0.165, 1); align-self: start;}
+h1{text-align: center; text-decoration: solid;background-color:aquamarine;}
+label{text-align:end;}
+form{background-color:slategray; text-decoration-color: black;}
