@@ -13,5 +13,4 @@ console.log(a);
 a.shift();
 
 console.log(a)
-let r1 = a.find();
-console.log(r1);
+console.log(a.findIndex(Object));
