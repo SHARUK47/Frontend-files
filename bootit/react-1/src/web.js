@@ -7,7 +7,7 @@ class web{
             <div className="row">
                 <div className="col-md-4">
                     <div className="card">
-                        
+
 
                     </div>
 
