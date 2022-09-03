@@ -1,19 +1,27 @@
-import React from 'react';
- import Check from './classcomp/Check';
-import Hmm from './classcomp/Hmm';
-import CompA from './props/CompA';
-import Product from './props2/Product';
-
+import React from "react";
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import Sform from "./formy/Sform"
 function App() {
   return (
-    <div>
-      <h1>why is that class component not working!</h1>
-       <Check/>
-      <Hmm/> 
-      <CompA/>
-      <Product/>
+    <Router>
+      <div className="App">
+        <ul>
+          <li>
+            <Link to = "/">Home</Link>
 
-    </div>
+          </li>
+          <li>
+            <Link to = "/About">About us</Link>
+          </li>
+          <li>
+          <Link to = "/Contact">Contact us</Link>
+
+          </li>
+        </ul>
+
+      </div>
+
+    </Router>  
   )
 }
 
